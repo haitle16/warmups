@@ -22,7 +22,6 @@ map = (array) => {
   let mapped = array.map(function(index) {
       return index + 10;
   });
-  // expect output: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   console.log(mapped);
 }
 
@@ -31,7 +30,6 @@ map([11,12,13,14,15,16,17,18,19,20]);
 
 filter = (array) => {
   let filter = array.filter(number => number > 2);
-  // expected output: [3,4,5,6,7,8,9,10]
   console.log(filter);
 }
 
@@ -39,7 +37,6 @@ filter([11,12,13,14,15,16,17,18,19,20]);
 
 reduce = (array) => {
   let reducer = (accumulator, currentValue) => accumulator + currentValue;
-  // expected output: 55
   console.log(array.reduce(reducer));
 }
 
