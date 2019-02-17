@@ -6,7 +6,7 @@ forLoop = (array) => {
   }
 }
 
-forLoop([1,2,3,4,5,6,7,8,9,10]);
+forLoop([11,12,13,14,15,16,17,18,19,20]);
 
 whileLoop = (array) => {
   let i = 0;
@@ -16,7 +16,7 @@ whileLoop = (array) => {
   }
 }
 
-whileLoop([1,2,3,4,5,6,7,8,9,10]);
+whileLoop([11,12,13,14,15,16,17,18,19,20]);
 
 map = (array) => {
   let mapped = array.map(function(index) {
@@ -26,7 +26,7 @@ map = (array) => {
   console.log(mapped);
 }
 
-map([1,2,3,4,5,6,7,8,9,10]);
+map([11,12,13,14,15,16,17,18,19,20]);
 
 
 filter = (array) => {
@@ -35,7 +35,7 @@ filter = (array) => {
   console.log(filter);
 }
 
-filter([1,2,3,4,5,6,7,8,9,10]);
+filter([11,12,13,14,15,16,17,18,19,20]);
 
 reduce = (array) => {
   let reducer = (accumulator, currentValue) => accumulator + currentValue;
@@ -43,7 +43,7 @@ reduce = (array) => {
   console.log(array.reduce(reducer));
 }
 
-reduce([1,2,3,4,5,6,7,8,9,10]);
+reduce([11,12,13,14,15,16,17,18,19,20]);
 
 // Warmup - Objects
 
